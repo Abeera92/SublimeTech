@@ -7,6 +7,7 @@ import Footer from './Component/Footer'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
+import Navbar from './Component/Navbar/Navbar'
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
         <Link to="/contact" className="nav-link">Contact</Link>
         <Link to="/dashboard" className="nav-link">Dashboard</Link>
       </nav>
-
+<Navbar/>
       {/* Main Content */}
       <div className="content">
         <Routes>

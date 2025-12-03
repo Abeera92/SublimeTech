@@ -1,5 +1,5 @@
 // File: src/components/Navbar.jsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Menu, Search, X } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import { SiSublimetext } from "react-icons/si";

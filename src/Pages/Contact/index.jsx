@@ -1,10 +1,20 @@
 import React from 'react'
-import HeroSection from '../../Component/AboutHero'
+import ContactHero from '../../Component/ContactHero'
+import ContactForm from '../../Component/ContactForm'
+import FAQSection from '../../Component/FAQS'
+import FeaturedProjects from '../../Component/FeaturedProjects'
+import Pricing from '../../Component/Pricing'
+
 
 export default function Contact() {
   return (
     <>
-      <HeroSection />
+
+      <ContactHero />
+      <ContactForm/>
+      <FAQSection/>
+      <FeaturedProjects/>
+      <Pricing/>
     </>
   )
 }
