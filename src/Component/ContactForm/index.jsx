@@ -19,7 +19,7 @@ const ContactForm = () => {
           {/* Contact Items */}
           <div className="space-y-4">
 
-            <div className="p-5 border border-gray-800 bg-gray-900 rounded-md flex items-start gap-4">
+            <div className="p-5 border border-gray-800 bg-gray-900 rounded-2xl flex items-start gap-4">
               <FiPhone className="text-teal-400 text-2xl" />
               <div>
                 <p className="text-gray-300">+1 (123) 456 7890</p>
@@ -27,7 +27,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className="p-5 border border-gray-800 bg-gray-900 rounded-md flex items-start gap-4">
+            <div className="p-5 border border-gray-800 bg-gray-900 rounded-2xl flex items-start gap-4">
               <FiMail className="text-teal-400 text-2xl" />
               <div>
                 <p className="text-gray-300">info@example.com</p>
@@ -35,7 +35,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className="p-5 border border-gray-800 bg-gray-900 rounded-md flex items-start gap-4">
+            <div className="p-5 border border-gray-800 bg-gray-900 rounded-2xl flex items-start gap-4">
               <FiClock className="text-teal-400 text-2xl" />
               <div>
                 <p className="text-gray-300">Mon - Fri: 9:00am - 7:00pm</p>
@@ -45,7 +45,7 @@ const ContactForm = () => {
           </div>
 
           {/* Menu Links */}
-          <div className="p-5 border border-gray-800 bg-gray-900 rounded-md space-y-3 text-gray-300 text-sm">
+          <div className="p-5 border border-gray-800 bg-gray-900 rounded-2xl space-y-3 text-gray-300 text-sm">
             <p>OUR SERVICES</p>
             <p>VIEW PRICING</p>
             <p>READ FAQS</p>
@@ -71,7 +71,7 @@ const ContactForm = () => {
         </div>
 
         {/* RIGHT FORM PANEL */}
-        <div className="lg:col-span-2 bg-gray-900 border border-gray-800 p-10 rounded-md">
+        <div className="lg:col-span-2 bg-gray-900 border border-gray-800 p-10 rounded-2xl">
           <h2 className="text-center text-2xl font-semibold mb-8">
             Send us a message
           </h2>

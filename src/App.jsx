@@ -8,6 +8,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Navbar from './Component/Navbar/Navbar'
+import Cursor from './Component/Cursor'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Link to="/contact" className="nav-link">Contact</Link>
         <Link to="/dashboard" className="nav-link">Dashboard</Link>
       </nav>
+      <Cursor/>
 <Navbar/>
       {/* Main Content */}
       <div className="content">
